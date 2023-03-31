@@ -10,9 +10,11 @@ import {
 import React from "react";
 import Buttonc from "../Components/Button";
 import Card from "../Components/Card";
+import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import ImageSlider from "../Components/Silder";
 import Black from "../images/20230324-aehp-newarrivals-lg.jpg";
+import LoginPage from "./LoginPage";
 
 const Home1 = () => {
    return (
@@ -143,6 +145,10 @@ const Home1 = () => {
          <br />
 
 <div>
+<Flex >
+<Footer/>
+<LoginPage/>
+</Flex>
 
 </div>
       </div>

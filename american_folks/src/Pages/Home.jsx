@@ -1,45 +1,69 @@
-import React from 'react'
-import { Tabs, TabList, TabPanels, Tab, TabPanel, Flex, background } from '@chakra-ui/react'
-import { IconButton } from '@chakra-ui/react'
-import { SearchIcon,StarIcon,CartIcon } from '@chakra-ui/icons'
+import React from "react";
+import {
+   Tabs,
+   TabList,
+   TabPanels,
+   Tab,
+   TabPanel,
+   Flex,
+   background,
+   Link,
+} from "@chakra-ui/react";
+import {
+   FaSearch,
+   FaHeart,
+   FaCartArrowDown,
+   FaSignInAlt,
+} from "react-icons/fa";
 
-import Home1 from './Home1'
-import Home2 from './Home2'
+import Home1 from "./Home1";
+import Home2 from "./Home2";
+import LoginPage from "./LoginPage";
 const Home = () => {
-  return (
-    <div>
-    <div style={{height:"30px" ,backgroundColor:"rgba(191,218,211,1)"}}></div>
-          <Tabs variant='enclosed'>
-  <TabList>
-    <Tab>
-    {/* <img src="C:\Users\HP\OneDrive\Desktop\accidental-pull-8164\american_folks\src\images\logo.png" alt="logo" /> */}
-        {/* <img src="american_folks\src\images\logo.png" alt="logo" /> */}
-      <b>  AMERICAN FOLKS </b>
-    </Tab>
-    <Tab>
-        <i>VISTA</i>
-    </Tab>
-    
-<Flex gap="10px" textAlign="left" style={{padding:" 0px 0px 0px 60%"} }>
-<IconButton aria-label='Search database' icon={<SearchIcon />} />
-<img width="25px" src="https://cdn-icons-png.flaticon.com/128/3917/3917711.png" alt="conatct" />
-<IconButton icon={<StarIcon/>}/>
-<img src="C:\Users\HP\OneDrive\Desktop\accidental-pull-8164\american_folks\src\images\shopping-bag.png" alt="bag" />
-<img src="american_folks\src\images\shopping-bag.png" alt="bha" />
+   return (
+      <div>
+         <div
+            style={{ height: "30px", backgroundColor: "rgba(191,218,211,1)" }}
+         ></div>
+         <Tabs variant="enclosed">
+            <TabList>
+               <Tab>
+                  <b> AMERICAN FOLKS </b>
+               </Tab>
+               <Tab>
+                  <i>VISTA</i>
+               </Tab>
 
-</Flex>
-  </TabList>
-  <TabPanels>
-    <TabPanel>
-      <Home1/>
-    </TabPanel>
-    <TabPanel>
-    <Home2/>
-    </TabPanel>
-  </TabPanels>
-</Tabs>
-    </div>
-  )
-}
+               <Flex
+                  gap="40px"
+                  textAlign="left"
+                  style={{ padding: " 20px 0px 0px 60%" }}
+               >
+                  <button type="submit">
+                     <FaSearch />
+                  </button>
+                  <Link to={<LoginPage/>}>
+                     <FaSignInAlt />
+                  </Link>
+                  <FaHeart />
+                  <FaCartArrowDown
+                     onClick={() => {
+                        alert("Cart");
+                     }}
+                  />
+               </Flex>
+            </TabList>
+            <TabPanels>
+               <TabPanel>
+                  <Home1 />
+               </TabPanel>
+               <TabPanel>
+                  <Home2 />
+               </TabPanel>
+            </TabPanels>
+         </Tabs>
+      </div>
+   );
+};
 
-export default Home
+export default Home;
