@@ -7,7 +7,6 @@ import {
    TabPanel,
    Flex,
    background,
-   Link,
 } from "@chakra-ui/react";
 import {
    FaSearch,
@@ -19,6 +18,7 @@ import {
 import Home1 from "./Home1";
 import Home2 from "./Home2";
 import LoginPage from "./LoginPage";
+import { Link } from "react-router-dom";
 const Home = () => {
    return (
       <div>
@@ -28,10 +28,14 @@ const Home = () => {
          <Tabs variant="enclosed">
             <TabList>
                <Tab>
-                  <b> AMERICAN FOLKS </b>
+                  <Link to="/american_folks">
+                     <b> AMERICAN FOLKS </b>
+                  </Link>
                </Tab>
                <Tab>
-                  <i>VISTA</i>
+                  <Link to="/vista">
+                     <i>VISTA</i>
+                  </Link>
                </Tab>
 
                <Flex
@@ -42,23 +46,24 @@ const Home = () => {
                   <button type="submit">
                      <FaSearch />
                   </button>
-                  <Link to={<LoginPage/>}>
+                  <Link to="/login">
                      <FaSignInAlt />
                   </Link>
                   <FaHeart />
+                  <Link to="/cartitem">
+
                   <FaCartArrowDown
-                     onClick={() => {
-                        alert("Cart");
-                     }}
+                    
                   />
+                  </Link>
                </Flex>
             </TabList>
             <TabPanels>
                <TabPanel>
-                  <Home1 />
+                  {/* <Home1 /> */}
                </TabPanel>
                <TabPanel>
-                  <Home2 />
+                  {/* <Home2 /> */}
                </TabPanel>
             </TabPanels>
          </Tabs>

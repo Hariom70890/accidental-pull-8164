@@ -144,13 +144,12 @@ const Home1 = () => {
          <hr />
          <br />
 
-<div>
-<Flex >
-<Footer/>
-<LoginPage/>
-</Flex>
-
-</div>
+         <div>
+            <Flex>
+               <Footer />
+               <LoginPage />
+            </Flex>
+         </div>
       </div>
    );
 };
