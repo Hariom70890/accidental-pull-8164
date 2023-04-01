@@ -2,14 +2,613 @@
   "2images": [
     {
       "id": 1,
-      "url":"https://s7d2.scene7.com/is/image/aeo/20230323-aehp-croptops-lg?scl=1&qlt=60&fmt=webp"
-      
+      "url": "https://s7d2.scene7.com/is/image/aeo/20230323-aehp-croptops-lg?scl=1&qlt=60&fmt=webp"
     },
     {
       "id": 2,
-      "url":"https://s7d2.scene7.com/is/image/aeo/20230323-aehp-resortshirts-lg?scl=1&qlt=60&fmt=webp"
-      
-    
+      "url": "https://s7d2.scene7.com/is/image/aeo/20230323-aehp-resortshirts-lg?scl=1&qlt=60&fmt=webp"
+    }
+  ],
+  "data": [
+    {
+      "id": 1,
+      "name": "Sleeveless Midi Dress",
+      "price": 59.99,
+      "description": "A stylish and comfortable midi dress perfect for any occasion.",
+      "imageAddress": "https://images.pexels.com/photos/14240604/pexels-photo-14240604.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "rating": 4.5,
+      "category": "Dresses",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Black",
+        "Navy Blue",
+        "Red"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "High-Waisted Skinny Jeans",
+      "price": 79.99,
+      "description": "A classic pair of high-waisted skinny jeans that flatter your figure.",
+      "imageAddress": "https://images.pexels.com/photos/9769870/pexels-photo-9769870.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "rating": 4.3,
+      "category": "Jeans",
+      "size": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "color": [
+        "Light Blue",
+        "Dark Blue"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Ribbed Turtleneck Sweater",
+      "price": 49.99,
+      "imageAddress": "https://images.pexels.com/photos/13347111/pexels-photo-13347111.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "description": "A cozy and stylish turtleneck sweater perfect for fall and winter.",
+      "rating": 4.7,
+      "category": "Sweaters",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Beige",
+        "Gray",
+        "Black"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Belted Wrap Coat",
+      "price": 99.99,
+      "description": "A stylish and warm wrap coat with a belt to cinch at the waist.",
+      "imageAddress": "https://images.pexels.com/photos/3236651/pexels-photo-3236651.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "rating": 4.9,
+      "category": "Coats",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Beige",
+        "Gray",
+        "Black"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Pleated Mini Skirt",
+      "price": 39.99,
+      "description": "A cute and flirty mini skirt with pleated details.",
+      "imageAddress": "https://images.pexels.com/photos/4919724/pexels-photo-4919724.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "rating": 4.1,
+      "category": "Skirts",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Pink",
+        "Black"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Ruffle-Trimmed Blouse",
+      "price": 49.99,
+      "description": "A feminine and elegant blouse with ruffle details.",
+      "imageAddress": "https://images.pexels.com/photos/4919672/pexels-photo-4919672.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "rating": 4.6,
+      "category": "Pants",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Green",
+        "Khaki"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Wide-Leg Jumpsuit",
+      "imageAddress": "https://images.pexels.com/photos/9769853/pexels-photo-9769853.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "price": 89.99,
+      "description": "A chic and comfortable wide-leg jumpsuit perfect for any occasion.",
+      "rating": 4.4,
+      "category": "Jumpsuits",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "Navy Blue"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "V-Neck Bodysuit",
+      "imageAddress": "https://images.pexels.com/photos/4919724/pexels-photo-4919724.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "price": 29.99,
+      "description": "A sleek and versatile bodysuit that pairs well with any bottom.",
+      "rating": 4.2,
+      "category": "Tops",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "White",
+        "Black",
+        "Beige"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Puff-Sleeve Blazer",
+      "price": 79.99,
+      "description": "A stylish and trendy blazer with cute puff sleeves.",
+      "imageAddress": "https://images.pexels.com/photos/11034416/pexels-photo-11034416.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "rating": 4.8,
+      "category": "Blazers",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Black",
+        "Gray"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Distressed Denim Jacket",
+      "imageAddress": "https://images.pexels.com/photos/4919672/pexels-photo-4919672.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "price": 69.99,
+      "description": "A cool and edgy denim jacket with distressed details.",
+      "rating": 4.3,
+      "category": "Jackets",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Light Blue",
+        "Dark Blue"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Satin Slip Dress",
+      "price": 49.99,
+      "description": "A sleek and sexy satin slip dress perfect for a night out.",
+      "imageAddress": "https://images.pexels.com/photos/8307676/pexels-photo-8307676.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "rating": 4.7,
+      "category": "Dresses",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "Red"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Tie-Front Crop Top",
+      "imageAddress": "https://images.pexels.com/photos/9853469/pexels-photo-9853469.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "price": 29.99,
+      "description": "A cute and playful crop top with a tie-front detail.",
+      "rating": 4.1,
+      "category": "Tops",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "White",
+        "Black",
+        "Pink"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Floral Midi Dress",
+      "price": 59.99,
+      "description": "A beautiful floral midi dress perfect for a spring day.",
+      "imageAddress": "https://images.pexels.com/photos/4919713/pexels-photo-4919713.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "rating": 4.5,
+      "category": "Dresses",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "White",
+        "Pink",
+        "Green"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Button-Front Skirt",
+      "price": 39.99,
+      "description": "A classic button-front skirt with a modern twist.",
+      "imageAddress": "https://images.pexels.com/photos/5886045/pexels-photo-5886045.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "rating": 4.2,
+      "category": "Skirts",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Beige",
+        "Black"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "High-Waisted Wide-Leg Pants",
+      "price": 59.99,
+      "description": "A chic and stylish pair of high-waisted wide-leg pants.",
+      "rating": 4.7,
+      "imageAddress": "https://images.pexels.com/photos/12630982/pexels-photo-12630982.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "category": "Pants",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Pleated Mini Skirt",
+      "imageAddress": "https://images.pexels.com/photos/5119529/pexels-photo-5119529.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "price": 34.99,
+      "description": "A fun and flirty pleated mini skirt in a beautiful pastel color.",
+      "rating": 4.3,
+      "category": "Skirts",
+      "size": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "color": [
+        "Pink",
+        "Purple",
+        "Blue"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Ruffle-Hem Midi Dress",
+      "price": 79.99,
+      "imageAddress": "https://images.pexels.com/photos/10040258/pexels-photo-10040258.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "description": "A gorgeous ruffle-hem midi dress perfect for a special occasion.",
+      "rating": 4.9,
+      "category": "Dresses",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Red",
+        "Navy Blue"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Faux Leather Leggings",
+      "price": 49.99,
+      "imageAddress": "https://images.pexels.com/photos/9770968/pexels-photo-9770968.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "description": "A stylish and comfortable pair of faux leather leggings.",
+      "rating": 4.4,
+      "category": "Pants",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Wrap-Front Jumpsuit",
+      "price": 89.99,
+      "description": "A chic and sophisticated wrap-front jumpsuit perfect for a night out.",
+      "imageAddress": "https://images.pexels.com/photos/4919686/pexels-photo-4919686.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "rating": 4.6,
+      "category": "Jumpsuits",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Off-the-Shoulder Top",
+      "price": 29.99,
+      "imageAddress": "https://images.pexels.com/photos/6994832/pexels-photo-6994832.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "description": "A trendy and feminine off-the-shoulder top perfect for a casual day out.",
+      "rating": 4.1,
+      "category": "Tops",
+      "size": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "color": [
+        "White",
+        "Black"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Flared Jeans",
+      "imageAddress": "https://images.pexels.com/photos/8517066/pexels-photo-8517066.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "price": 54.99,
+      "description": "A stylish and comfortable pair of flared jeans perfect for a 70s-inspired look.",
+      "rating": 4.3,
+      "category": "Jeans",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Blue"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Tie-Dye T-Shirt Dress",
+      "imageAddress": "https://images.pexels.com/photos/8532607/pexels-photo-8532607.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "price": 44.99,
+      "description": "A fun and colorful tie-dye t-shirt dress perfect for a summer day.",
+      "rating": 4.2,
+      "category": "Dresses",
+      "size": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "color": [
+        "Multicolor"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Ruffle-Sleeve Blouse",
+      "price": 39.99,
+      "description": "A pretty and feminine ruffle-sleeve blouse perfect for the office.",
+      "imageAddress": "https://images.pexels.com/photos/5704736/pexels-photo-5704736.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "rating": 4.7,
+      "category": "Tops",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "White",
+        "Pink"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Cargo Pants",
+      "imageAddress": "https://images.pexels.com/photos/5704736/pexels-photo-5704736.jpeg?auto=compress&cs=tinysrgb&w=200",
+      "price": 49.99,
+      "description": "A trendy and practical pair of cargo pants perfect for a casual look.",
+      "rating": 4.5,
+      "category": "Pants",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Green",
+        "Khaki"
+      ]
+    }
+  ],
+  "cartData": [
+    {
+      "data": {
+        "id": 6,
+        "name": "Ruffle-Trimmed Blouse",
+        "price": 49.99,
+        "description": "A feminine and elegant blouse with ruffle details.",
+        "imageAddress": "https://images.pexels.com/photos/4919672/pexels-photo-4919672.jpeg?auto=compress&cs=tinysrgb&w=200",
+        "rating": 4.6,
+        "category": "Pants",
+        "size": [
+          "XS",
+          "S",
+          "M",
+          "L"
+        ],
+        "color": [
+          "Green",
+          "Khaki"
+        ]
+      },
+      "id": 1
+    },
+    {
+      "data": {
+        "id": 1,
+        "name": "Sleeveless Midi Dress",
+        "price": 59.99,
+        "description": "A stylish and comfortable midi dress perfect for any occasion.",
+        "imageAddress": "https://images.pexels.com/photos/14240604/pexels-photo-14240604.jpeg?auto=compress&cs=tinysrgb&w=200",
+        "rating": 4.5,
+        "category": "Dresses",
+        "size": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color": [
+          "Black",
+          "Navy Blue",
+          "Red"
+        ]
+      },
+      "id": 2
+    },
+    {
+      "data": {
+        "id": 3,
+        "name": "Ribbed Turtleneck Sweater",
+        "price": 49.99,
+        "imageAddress": "https://images.pexels.com/photos/13347111/pexels-photo-13347111.jpeg?auto=compress&cs=tinysrgb&w=200",
+        "description": "A cozy and stylish turtleneck sweater perfect for fall and winter.",
+        "rating": 4.7,
+        "category": "Sweaters",
+        "size": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color": [
+          "Beige",
+          "Gray",
+          "Black"
+        ]
+      },
+      "id": 3
+    },
+    {
+      "data": {
+        "id": 3,
+        "name": "Ribbed Turtleneck Sweater",
+        "price": 49.99,
+        "imageAddress": "https://images.pexels.com/photos/13347111/pexels-photo-13347111.jpeg?auto=compress&cs=tinysrgb&w=200",
+        "description": "A cozy and stylish turtleneck sweater perfect for fall and winter.",
+        "rating": 4.7,
+        "category": "Sweaters",
+        "size": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color": [
+          "Beige",
+          "Gray",
+          "Black"
+        ]
+      },
+      "id": 4
+    },
+    {
+      "data": {
+        "id": 3,
+        "name": "Ribbed Turtleneck Sweater",
+        "price": 49.99,
+        "imageAddress": "https://images.pexels.com/photos/13347111/pexels-photo-13347111.jpeg?auto=compress&cs=tinysrgb&w=200",
+        "description": "A cozy and stylish turtleneck sweater perfect for fall and winter.",
+        "rating": 4.7,
+        "category": "Sweaters",
+        "size": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color": [
+          "Beige",
+          "Gray",
+          "Black"
+        ]
+      },
+      "id": 5
+    },
+    {
+      "data": {
+        "id": 9,
+        "name": "Puff-Sleeve Blazer",
+        "price": 79.99,
+        "description": "A stylish and trendy blazer with cute puff sleeves.",
+        "imageAddress": "https://images.pexels.com/photos/11034416/pexels-photo-11034416.jpeg?auto=compress&cs=tinysrgb&w=200",
+        "rating": 4.8,
+        "category": "Blazers",
+        "size": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color": [
+          "Black",
+          "Gray"
+        ]
+      },
+      "id": 6
     }
   ]
 }
