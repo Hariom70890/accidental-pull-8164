@@ -47,6 +47,7 @@ const Home = () => {
                      <FaSearch />
                   </button>
                   <Link to="/login">
+                  
                      <FaSignInAlt />
                   </Link>
                   <FaHeart />

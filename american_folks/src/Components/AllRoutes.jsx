@@ -8,6 +8,7 @@ import Home2 from "../Pages/Home2";
 import LoginPage from "../Pages/LoginPage";
 import SignIn from "../Pages/SignIn";
 import Women from "../Pages/Women";
+import Payment from "../Pages/Payment";
 
 const AllRoutes = () => {
    return (
@@ -17,7 +18,7 @@ const AllRoutes = () => {
             <Route path="/american_folks" element={<Home1 />}></Route>
             <Route path="/vista" element={<Home2 />}></Route>
             <Route path="/login" element={<LoginPage />} />
-            {/* <Route path="/cart" element={<Cart/>}/> */}
+            <Route path="/paymentPage" element={<Payment/>}/>
             <Route path="/cartitem" element={<CartItem />} />
             <Route path="/signin" element={<SignIn />} />
             <Route path="/women" element={<Women />} />
