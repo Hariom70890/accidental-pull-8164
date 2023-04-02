@@ -496,36 +496,38 @@
     },
     {
       "data": {
-        "id": 4,
-        "name": "Belted Wrap Coat",
-        "price": 99.99,
-        "description": "A stylish and warm wrap coat with a belt to cinch at the waist.",
-        "imageAddress": "https://images.pexels.com/photos/3236651/pexels-photo-3236651.jpeg?auto=compress&cs=tinysrgb&w=200",
-        "rating": 4.9,
-        "category": "Coats",
+        "id": 2,
+        "name": "High-Waisted Skinny Jeans",
+        "price": 79.99,
+        "description": "A classic pair of high-waisted skinny jeans that flatter your figure.",
+        "imageAddress": "https://images.pexels.com/photos/9769870/pexels-photo-9769870.jpeg?auto=compress&cs=tinysrgb&w=200",
+        "rating": 4.3,
+        "category": "Jeans",
         "size": [
-          "S",
-          "M",
-          "L",
-          "XL"
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30"
         ],
         "color": [
-          "Beige",
-          "Gray",
-          "Black"
+          "Light Blue",
+          "Dark Blue"
         ]
       },
       "id": 2
     },
     {
       "data": {
-        "id": 5,
-        "name": "Pleated Mini Skirt",
-        "price": 39.99,
-        "description": "A cute and flirty mini skirt with pleated details.",
-        "imageAddress": "https://images.pexels.com/photos/4919724/pexels-photo-4919724.jpeg?auto=compress&cs=tinysrgb&w=200",
-        "rating": 4.1,
-        "category": "Skirts",
+        "id": 6,
+        "name": "Ruffle-Trimmed Blouse",
+        "price": 49.99,
+        "description": "A feminine and elegant blouse with ruffle details.",
+        "imageAddress": "https://images.pexels.com/photos/4919672/pexels-photo-4919672.jpeg?auto=compress&cs=tinysrgb&w=200",
+        "rating": 4.6,
+        "category": "Pants",
         "size": [
           "XS",
           "S",
@@ -533,58 +535,11 @@
           "L"
         ],
         "color": [
-          "Pink",
-          "Black"
+          "Green",
+          "Khaki"
         ]
       },
       "id": 3
-    },
-    {
-      "data": {
-        "id": 8,
-        "name": "V-Neck Bodysuit",
-        "imageAddress": "https://images.pexels.com/photos/4919724/pexels-photo-4919724.jpeg?auto=compress&cs=tinysrgb&w=200",
-        "price": 29.99,
-        "description": "A sleek and versatile bodysuit that pairs well with any bottom.",
-        "rating": 4.2,
-        "category": "Tops",
-        "size": [
-          "XS",
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "color": [
-          "White",
-          "Black",
-          "Beige"
-        ]
-      },
-      "id": 4
-    },
-    {
-      "data": {
-        "id": 12,
-        "name": "Tie-Front Crop Top",
-        "imageAddress": "https://images.pexels.com/photos/9853469/pexels-photo-9853469.jpeg?auto=compress&cs=tinysrgb&w=200",
-        "price": 29.99,
-        "description": "A cute and playful crop top with a tie-front detail.",
-        "rating": 4.1,
-        "category": "Tops",
-        "size": [
-          "XS",
-          "S",
-          "M",
-          "L"
-        ],
-        "color": [
-          "White",
-          "Black",
-          "Pink"
-        ]
-      },
-      "id": 5
     }
   ]
 }

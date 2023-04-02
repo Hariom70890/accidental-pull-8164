@@ -8,7 +8,6 @@ import {
    TabPanel,
 } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import Women from "../Pages/Women";
 
 const Navbar = () => {
    return (

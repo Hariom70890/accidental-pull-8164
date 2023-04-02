@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import Card from "../Components/Card";
 import ImageCircular from "../Components/ImageCircular";
 import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 
 const images = [
    {
@@ -98,17 +99,21 @@ const Women = () => {
                      name={e.name}
                      price={e.price}
                      det={e.description}
-                     handleClick={()=>
+                     handleClick={()=>{
+
                      axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cartData`,{
                         data:e
                      })
                     .then((res)=>console.log(res.data.data))
+                    alert("Item Added to cart")
+                     }
+                    
                      }
                   />
             );
          })}
                </Grid>
-         <h1>Women</h1>
+       <Footer/>
       </div>
    );
 };

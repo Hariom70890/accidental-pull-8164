@@ -1,8 +1,6 @@
 import React from "react";
-import { FaSign } from "react-icons/fa";
 import { Route, Routes } from "react-router-dom";
 import { Cart, CartItem } from "../Pages/Cart";
-import Home from "../Pages/Home";
 import Home1 from "../Pages/Home1";
 import Home2 from "../Pages/Home2";
 import LoginPage from "../Pages/LoginPage";

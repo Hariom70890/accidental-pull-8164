@@ -15,8 +15,10 @@ import Navbar from "../Components/Navbar";
 import ImageSlider from "../Components/Silder";
 import Black from "../images/20230324-aehp-newarrivals-lg.jpg";
 import LoginPage from "./LoginPage";
+import { useNavigate } from "react-router-dom";
 
 const Home1 = () => {
+   const navigate = useNavigate()
    return (
       <div>
          <Navbar />
@@ -45,12 +47,14 @@ const Home1 = () => {
                         <Buttonc
                            text={"Shop Women"}
                            bgcolr={"rgba(191,218,211,1)"}
+                           handleClick={()=>navigate("/women")}
                         />
                         <br />
 
                         <Buttonc
                            text={"Shop Men"}
                            bgcolr={"rgba(191,218,211,1)"}
+                           handleClick={()=>navigate("/man")}
                         />
                      </VStack>
                   </Center>

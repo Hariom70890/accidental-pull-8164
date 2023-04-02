@@ -1,21 +1,7 @@
 import { useEffect, useState } from "react";
-import {
-   Box,
-   Button,
-   Flex,
-   IconButton,
-   Image,
-   Input,
-   InputGroup,
-   InputRightElement,
-   Stack,
-   Text,
-   useToast,
-} from "@chakra-ui/react";
-import { FaTrash, FaPlus, FaMinus } from "react-icons/fa";
+
 import axios from "axios";
 import ProductSummary from "../Components/ProductSummary";
-import Payment from "./Payment";
 
 
 const CartItem = () => {

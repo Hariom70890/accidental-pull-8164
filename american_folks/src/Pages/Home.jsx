@@ -6,7 +6,6 @@ import {
    Tab,
    TabPanel,
    Flex,
-   background,
 } from "@chakra-ui/react";
 import {
    FaSearch,
