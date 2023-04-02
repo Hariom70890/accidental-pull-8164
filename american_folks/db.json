@@ -472,28 +472,6 @@
   "cartData": [
     {
       "data": {
-        "id": 6,
-        "name": "Ruffle-Trimmed Blouse",
-        "price": 49.99,
-        "description": "A feminine and elegant blouse with ruffle details.",
-        "imageAddress": "https://images.pexels.com/photos/4919672/pexels-photo-4919672.jpeg?auto=compress&cs=tinysrgb&w=200",
-        "rating": 4.6,
-        "category": "Pants",
-        "size": [
-          "XS",
-          "S",
-          "M",
-          "L"
-        ],
-        "color": [
-          "Green",
-          "Khaki"
-        ]
-      },
-      "id": 1
-    },
-    {
-      "data": {
         "id": 1,
         "name": "Sleeveless Midi Dress",
         "price": 59.99,
@@ -514,19 +492,18 @@
           "Red"
         ]
       },
-      "id": 2
+      "id": 1
     },
     {
       "data": {
-        "id": 3,
-        "name": "Ribbed Turtleneck Sweater",
-        "price": 49.99,
-        "imageAddress": "https://images.pexels.com/photos/13347111/pexels-photo-13347111.jpeg?auto=compress&cs=tinysrgb&w=200",
-        "description": "A cozy and stylish turtleneck sweater perfect for fall and winter.",
-        "rating": 4.7,
-        "category": "Sweaters",
+        "id": 4,
+        "name": "Belted Wrap Coat",
+        "price": 99.99,
+        "description": "A stylish and warm wrap coat with a belt to cinch at the waist.",
+        "imageAddress": "https://images.pexels.com/photos/3236651/pexels-photo-3236651.jpeg?auto=compress&cs=tinysrgb&w=200",
+        "rating": 4.9,
+        "category": "Coats",
         "size": [
-          "XS",
           "S",
           "M",
           "L",
@@ -535,6 +512,28 @@
         "color": [
           "Beige",
           "Gray",
+          "Black"
+        ]
+      },
+      "id": 2
+    },
+    {
+      "data": {
+        "id": 5,
+        "name": "Pleated Mini Skirt",
+        "price": 39.99,
+        "description": "A cute and flirty mini skirt with pleated details.",
+        "imageAddress": "https://images.pexels.com/photos/4919724/pexels-photo-4919724.jpeg?auto=compress&cs=tinysrgb&w=200",
+        "rating": 4.1,
+        "category": "Skirts",
+        "size": [
+          "XS",
+          "S",
+          "M",
+          "L"
+        ],
+        "color": [
+          "Pink",
           "Black"
         ]
       },
@@ -542,13 +541,13 @@
     },
     {
       "data": {
-        "id": 3,
-        "name": "Ribbed Turtleneck Sweater",
-        "price": 49.99,
-        "imageAddress": "https://images.pexels.com/photos/13347111/pexels-photo-13347111.jpeg?auto=compress&cs=tinysrgb&w=200",
-        "description": "A cozy and stylish turtleneck sweater perfect for fall and winter.",
-        "rating": 4.7,
-        "category": "Sweaters",
+        "id": 8,
+        "name": "V-Neck Bodysuit",
+        "imageAddress": "https://images.pexels.com/photos/4919724/pexels-photo-4919724.jpeg?auto=compress&cs=tinysrgb&w=200",
+        "price": 29.99,
+        "description": "A sleek and versatile bodysuit that pairs well with any bottom.",
+        "rating": 4.2,
+        "category": "Tops",
         "size": [
           "XS",
           "S",
@@ -557,58 +556,35 @@
           "XL"
         ],
         "color": [
-          "Beige",
-          "Gray",
-          "Black"
+          "White",
+          "Black",
+          "Beige"
         ]
       },
       "id": 4
     },
     {
       "data": {
-        "id": 3,
-        "name": "Ribbed Turtleneck Sweater",
-        "price": 49.99,
-        "imageAddress": "https://images.pexels.com/photos/13347111/pexels-photo-13347111.jpeg?auto=compress&cs=tinysrgb&w=200",
-        "description": "A cozy and stylish turtleneck sweater perfect for fall and winter.",
-        "rating": 4.7,
-        "category": "Sweaters",
+        "id": 12,
+        "name": "Tie-Front Crop Top",
+        "imageAddress": "https://images.pexels.com/photos/9853469/pexels-photo-9853469.jpeg?auto=compress&cs=tinysrgb&w=200",
+        "price": 29.99,
+        "description": "A cute and playful crop top with a tie-front detail.",
+        "rating": 4.1,
+        "category": "Tops",
         "size": [
           "XS",
           "S",
           "M",
-          "L",
-          "XL"
+          "L"
         ],
         "color": [
-          "Beige",
-          "Gray",
-          "Black"
+          "White",
+          "Black",
+          "Pink"
         ]
       },
       "id": 5
-    },
-    {
-      "data": {
-        "id": 9,
-        "name": "Puff-Sleeve Blazer",
-        "price": 79.99,
-        "description": "A stylish and trendy blazer with cute puff sleeves.",
-        "imageAddress": "https://images.pexels.com/photos/11034416/pexels-photo-11034416.jpeg?auto=compress&cs=tinysrgb&w=200",
-        "rating": 4.8,
-        "category": "Blazers",
-        "size": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "color": [
-          "Black",
-          "Gray"
-        ]
-      },
-      "id": 6
     }
   ]
 }

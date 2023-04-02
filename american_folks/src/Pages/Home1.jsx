@@ -104,10 +104,13 @@ const Home1 = () => {
          <div style={{ margin: "40px 30%", textAlign: "center" }}>
             <ImageSlider
                images={[
-                  "https://via.placeholder.com/300x300",
-                  "https://via.placeholder.com/300x301",
-                  "https://via.placeholder.com/300x302",
-                  "https://via.placeholder.com/300x303",
+                  "https://s7d2.scene7.com/is/image/aeo/2154_5959_328_ob?$cat-main_large$&fmt=webp",
+                  "https://s7d2.scene7.com/is/image/aeo/3171_5714_100_f?$cat-main_large$&fmt=webp",
+                  "https://s7d2.scene7.com/is/image/aeo/0181_2800_020_of?$cat-main_large$&fmt=webp",
+                  "https://s7d2.scene7.com/is/image/aeo/20230323-jhp-dreamydrape-lg?scl=1&qlt=60&fmt=webp",
+                  "https://s7d2.scene7.com/is/image/aeo/1161_2785_615_f?$cat-main_large$&fmt=webp",
+                  "https://s7d2.scene7.com/is/image/aeo/0366_5634_823_ob?$cat-main_large$&fmt=webp",
+                  "https://s7d2.scene7.com/is/image/aeo/0181_2869_001_f?$cat-main_large$&fmt=webp"
                ]}
             />
             <Text>

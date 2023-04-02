@@ -1,7 +1,7 @@
 import { Box, Center, Flex, Grid, Text } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 import { useState } from "react";
-import axios from "axios"
+import axios, { Axios } from "axios"
 import { Link } from "react-router-dom";
 import Card from "../Components/Card";
 import ImageCircular from "../Components/ImageCircular";
@@ -40,14 +40,15 @@ const Women = () => {
         return(
             alert("He")
         )
-    // console.log("He")
-    }
-   useEffect(() => {
-      fetch("http://localhost:8080/data")
-         .then((res) => res.json())
-         .then((res) => setData(res));
-   }, []);
-   return (
+      }
+      useEffect(() => {
+         axios
+         .get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/data`)
+      //   .get(`http://localhost:8080/data`)
+         .then((res) => setData(res.data));
+      }, []);
+      // console.log(data)
+      return (
       <div>
          <Navbar />
          <div>
@@ -98,10 +99,10 @@ const Women = () => {
                      price={e.price}
                      det={e.description}
                      handleClick={()=>
-                     axios.post(`http://localhost:8080/cartData`,{
+                     axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/cartData`,{
                         data:e
                      })
-                    .then((res)=>console.log(res.data))
+                    .then((res)=>console.log(res.data.data))
                      }
                   />
             );
