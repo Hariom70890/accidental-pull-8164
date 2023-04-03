@@ -45,7 +45,7 @@ Global styles are defined in the styles directory and can be imported and applie
 
 Deployment:
 
-Once you're ready to deploy your site, you can use a hosting service such as Netlify my site
+I have deployed my site on netlify.
 
 
 
