@@ -1,8 +1,9 @@
  1. Tech Stack:
 
-ReactJS - a popular JavaScript library for building user interfaces
-CSS - a styling language used to style web pages
-Chakra UI - a component library for React that provides a set of accessible and customizable UI components
+  -> ReactJS - a popular JavaScript library for building user interfaces
+  
+   -> CSS - a styling language used to style web pages
+    -> Chakra UI - a component library for React that provides a set of accessible and customizable UI components
 
 
    -->Folder Structure:
