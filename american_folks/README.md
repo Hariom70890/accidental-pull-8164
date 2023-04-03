@@ -1,3 +1,57 @@
+ 1. Tech Stack:
+
+ReactJS - a popular JavaScript library for building user interfaces
+CSS - a styling language used to style web pages
+Chakra UI - a component library for React that provides a set of accessible and customizable UI components
+
+
+   -->Folder Structure:
+
+ 1. src
+assets - images and other static files
+components - reusable components used throughout the site
+pages - the main pages of the site
+styles - global styles for the site
+utils - utility functions used throughout the site
+App.js - the root component of the site
+index.js - the entry point of the site
+
+
+ 2. Pages:
+
+Home page - displays featured products and promotions
+Men's page - displays men's clothing and accessories
+Women's page - displays women's clothing and accessories
+Sale page - displays discounted items
+Account page - allows users to log in or create an account
+
+
+ 3. Components:
+
+Header - displays the site logo and navigation links
+Footer - displays social media links and contact information
+ProductCard - displays information about a single product
+Button - a customizable button component
+Input - a customizable input component
+ 
+ 
+ 4. Styling:
+
+Chakra UI provides a set of pre-built components that can be customized using CSS-in-JS
+Global styles are defined in the styles directory and can be imported and applied throughout the site
+
+
+
+Deployment:
+
+Once you're ready to deploy your site, you can use a hosting service such as Netlify my site
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
